@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
    styleUrls: ['./chores.component.css']
 })
 export class ChoresComponent implements OnInit {
-   chores = ['Clean Kitchen','Call mom','Work prep work','no worry'];
-   finishedChores = ['call mom'];
+   chores = ['Clean Kitchen','Buy groceries'];
+   finishedChores = ['Laundry','Trash takeout','Buy gifts','Dust tables'];
 
    targetImage = 'https://www.launchcode.org/assets/icons/target-00c7a0bc7776901e3c5cdc4c36c465f19e41a249bc7267a595f0bfa14ab944b7.png';
 
